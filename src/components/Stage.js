@@ -9,4 +9,4 @@ const Stage = ({ stage }) => (
   </StyledStage>
 );
 
-export default Stage;
+export default React.memo(Stage);
